@@ -129,10 +129,16 @@ AddOutputFilter chunkFilter
 					<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision/Vision Support Code/Sorted Particle Report 2016.vi"/>
 				</Item>
 				<Item Name="Camera Calibration Example.vi" Type="VI" URL="../Vision/Camera Calibration Example.vi"/>
+				<Item Name="CameraEnum.ctl" Type="VI" URL="../Vision/CameraEnum.ctl"/>
 				<Item Name="FRC Color Processing Example.vi" Type="VI" URL="../Vision/FRC Color Processing Example.vi"/>
 				<Item Name="FRC Color Processing Low Goal Example.vi" Type="VI" URL="../Vision/FRC Color Processing Low Goal Example.vi"/>
+				<Item Name="InitCamera.vi" Type="VI" URL="../Vision/InitCamera.vi"/>
+				<Item Name="jystickModes.ctl" Type="VI" URL="../jystickModes.ctl"/>
+				<Item Name="LEDcolorFromDashboard.vi" Type="VI" URL="../Vision/LEDcolorFromDashboard.vi"/>
+				<Item Name="ReadCamCal.vi" Type="VI" URL="../Vision/ReadCamCal.vi"/>
 				<Item Name="Vision Processing Performance.vi" Type="VI" URL="../Vision/Vision Processing Performance.vi"/>
 				<Item Name="Vision Processing.vi" Type="VI" URL="../Vision/Vision Processing.vi"/>
+				<Item Name="WriteCamCal.vi" Type="VI" URL="../Vision/WriteCamCal.vi"/>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -159,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
-		<Item Name="jystickModes.ctl" Type="VI" URL="../jystickModes.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -288,6 +293,7 @@ AddOutputFilter chunkFilter
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Convert Line to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Line to ROI"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Flatten Image to String" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Flatten Image to String"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
@@ -781,7 +787,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
