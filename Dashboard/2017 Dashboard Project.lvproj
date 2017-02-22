@@ -19,6 +19,145 @@
 			<Item Name="Panel Resized.vi" Type="VI" URL="../Panel Resized.vi"/>
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
+		<Item Name="LEDcontrol" Type="Folder">
+			<Item Name="LabVIEWvis" Type="Folder">
+				<Item Name="InitializeLED.vi" Type="VI" URL="../LED/LabVIEWvis/InitializeLED.vi"/>
+				<Item Name="LEDseflash.vi" Type="VI" URL="../LED/LabVIEWvis/LEDseflash.vi"/>
+				<Item Name="LEDstateintensity.vi" Type="VI" URL="../LED/LabVIEWvis/LEDstateintensity.vi"/>
+				<Item Name="Shutdown.vi" Type="VI" URL="../LED/LabVIEWvis/Shutdown.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../LED/LabVIEWvis/test.vi"/>
+			</Item>
+			<Item Name="PacDriveSDK" Type="Folder">
+				<Item Name="C#" Type="Folder">
+					<Item Name="bin" Type="Folder">
+						<Item Name="Debug" Type="Folder">
+							<Item Name="PacDrive32.dll" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDrive32.dll"/>
+							<Item Name="PacDrive64.dll" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDrive64.dll"/>
+							<Item Name="PacDriveDemo.exe" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDriveDemo.exe"/>
+							<Item Name="PacDriveDemo.pdb" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDriveDemo.pdb"/>
+							<Item Name="PacDriveDemo.vshost.exe" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDriveDemo.vshost.exe"/>
+							<Item Name="PacDriveDemo.vshost.exe.manifest" Type="Document" URL="../LED/PacDriveSDK/C#/bin/Debug/PacDriveDemo.vshost.exe.manifest"/>
+						</Item>
+					</Item>
+					<Item Name="Properties" Type="Folder">
+						<Item Name="AssemblyInfo.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Properties/AssemblyInfo.cs"/>
+						<Item Name="Resources.Designer.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Properties/Resources.Designer.cs"/>
+						<Item Name="Resources.resx" Type="Document" URL="../LED/PacDriveSDK/C#/Properties/Resources.resx"/>
+						<Item Name="Settings.Designer.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Properties/Settings.Designer.cs"/>
+						<Item Name="Settings.settings" Type="Document" URL="../LED/PacDriveSDK/C#/Properties/Settings.settings"/>
+					</Item>
+					<Item Name="Form1.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Form1.cs"/>
+					<Item Name="Form1.Designer.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Form1.Designer.cs"/>
+					<Item Name="Form1.resx" Type="Document" URL="../LED/PacDriveSDK/C#/Form1.resx"/>
+					<Item Name="PacDrive.cs" Type="Document" URL="../LED/PacDriveSDK/C#/PacDrive.cs"/>
+					<Item Name="PacDriveDemo.csproj" Type="Document" URL="../LED/PacDriveSDK/C#/PacDriveDemo.csproj"/>
+					<Item Name="PacDriveDemo.sln" Type="Document" URL="../LED/PacDriveSDK/C#/PacDriveDemo.sln"/>
+					<Item Name="PacDriveDemo.suo" Type="Document" URL="../LED/PacDriveSDK/C#/PacDriveDemo.suo"/>
+					<Item Name="Program.cs" Type="Document" URL="../LED/PacDriveSDK/C#/Program.cs"/>
+					<Item Name="UpgradeLog.XML" Type="Document" URL="../LED/PacDriveSDK/C#/UpgradeLog.XML"/>
+				</Item>
+				<Item Name="C++" Type="Folder">
+					<Item Name="Release" Type="Folder">
+						<Item Name="BuildLog.htm" Type="Document" URL="../LED/PacDriveSDK/C++/Release/BuildLog.htm"/>
+						<Item Name="mt.dep" Type="Document" URL="../LED/PacDriveSDK/C++/Release/mt.dep"/>
+						<Item Name="PacDrive.exe" Type="Document" URL="../LED/PacDriveSDK/C++/Release/PacDrive.exe"/>
+						<Item Name="PacDrive.exe.intermediate.manifest" Type="Document" URL="../LED/PacDriveSDK/C++/Release/PacDrive.exe.intermediate.manifest"/>
+						<Item Name="PacDrive.obj" Type="Document" URL="../LED/PacDriveSDK/C++/Release/PacDrive.obj"/>
+						<Item Name="PacDrive.pch" Type="Document" URL="../LED/PacDriveSDK/C++/Release/PacDrive.pch"/>
+						<Item Name="StdAfx.obj" Type="Document" URL="../LED/PacDriveSDK/C++/Release/StdAfx.obj"/>
+						<Item Name="vc90.idb" Type="Document" URL="../LED/PacDriveSDK/C++/Release/vc90.idb"/>
+					</Item>
+					<Item Name="x64" Type="Folder">
+						<Item Name="Release" Type="Folder">
+							<Item Name="BuildLog.htm" Type="Document" URL="../LED/PacDriveSDK/C++/x64/Release/BuildLog.htm"/>
+							<Item Name="mt.dep" Type="Document" URL="../LED/PacDriveSDK/C++/x64/Release/mt.dep"/>
+							<Item Name="PacDrive.exe.intermediate.manifest" Type="Document" URL="../LED/PacDriveSDK/C++/x64/Release/PacDrive.exe.intermediate.manifest"/>
+						</Item>
+					</Item>
+					<Item Name="PacDrive.cpp" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.cpp"/>
+					<Item Name="PacDrive.dsp" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.dsp"/>
+					<Item Name="PacDrive.dsw" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.dsw"/>
+					<Item Name="PacDrive.h" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.h"/>
+					<Item Name="PacDrive.opt" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.opt"/>
+					<Item Name="PacDrive.plg" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.plg"/>
+					<Item Name="PacDrive.sln" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.sln"/>
+					<Item Name="PacDrive.suo" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.suo"/>
+					<Item Name="PacDrive.vcproj" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive.vcproj"/>
+					<Item Name="PacDrive32.lib" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive32.lib"/>
+					<Item Name="PacDrive64.lib" Type="Document" URL="../LED/PacDriveSDK/C++/PacDrive64.lib"/>
+					<Item Name="ReadMe.txt" Type="Document" URL="../LED/PacDriveSDK/C++/ReadMe.txt"/>
+					<Item Name="StdAfx.cpp" Type="Document" URL="../LED/PacDriveSDK/C++/StdAfx.cpp"/>
+					<Item Name="StdAfx.h" Type="Document" URL="../LED/PacDriveSDK/C++/StdAfx.h"/>
+				</Item>
+				<Item Name="Delphi" Type="Folder">
+					<Item Name="PacDrive32.dll" Type="Document" URL="../LED/PacDriveSDK/Delphi/PacDrive32.dll"/>
+					<Item Name="PacDrive64.dll" Type="Document" URL="../LED/PacDriveSDK/Delphi/PacDrive64.dll"/>
+					<Item Name="SDIAPP.bdsproj" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.bdsproj"/>
+					<Item Name="SDIAPP.bdsproj.local" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.bdsproj.local"/>
+					<Item Name="SDIAPP.cfg" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.cfg"/>
+					<Item Name="SDIAPP.DPR" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.DPR"/>
+					<Item Name="SDIAPP.exe" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.exe"/>
+					<Item Name="SDIAPP.ICO" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.ICO"/>
+					<Item Name="SdiApp.identcache" Type="Document" URL="../LED/PacDriveSDK/Delphi/SdiApp.identcache"/>
+					<Item Name="SDIAPP.RES" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIAPP.RES"/>
+					<Item Name="SDIMAIN.dcu" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIMAIN.dcu"/>
+					<Item Name="SDIMAIN.dfm" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIMAIN.dfm"/>
+					<Item Name="SDIMAIN.PAS" Type="Document" URL="../LED/PacDriveSDK/Delphi/SDIMAIN.PAS"/>
+				</Item>
+				<Item Name="dlls" Type="Folder">
+					<Item Name="PacDrive32.dll" Type="Document" URL="../LED/PacDriveSDK/dlls/PacDrive32.dll"/>
+					<Item Name="PacDrive64.dll" Type="Document" URL="../LED/PacDriveSDK/dlls/PacDrive64.dll"/>
+				</Item>
+				<Item Name="VB.NET" Type="Folder">
+					<Item Name="bin" Type="Folder">
+						<Item Name="Debug" Type="Folder">
+							<Item Name="PacDrive32.dll" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDrive32.dll"/>
+							<Item Name="PacDrive64.dll" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDrive64.dll"/>
+							<Item Name="PacDriveDemo.exe" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDriveDemo.exe"/>
+							<Item Name="PacDriveDemo.pdb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDriveDemo.pdb"/>
+							<Item Name="PacDriveDemo.vshost.exe" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDriveDemo.vshost.exe"/>
+							<Item Name="PacDriveDemo.vshost.exe.manifest" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDriveDemo.vshost.exe.manifest"/>
+							<Item Name="PacDriveDemo.xml" Type="Document" URL="../LED/PacDriveSDK/VB.NET/bin/Debug/PacDriveDemo.xml"/>
+						</Item>
+					</Item>
+					<Item Name="My Project" Type="Folder">
+						<Item Name="Application.Designer.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Application.Designer.vb"/>
+						<Item Name="Application.myapp" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Application.myapp"/>
+						<Item Name="AssemblyInfo.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/AssemblyInfo.vb"/>
+						<Item Name="Resources.Designer.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Resources.Designer.vb"/>
+						<Item Name="Resources.resx" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Resources.resx"/>
+						<Item Name="Settings.Designer.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Settings.Designer.vb"/>
+						<Item Name="Settings.settings" Type="Document" URL="../LED/PacDriveSDK/VB.NET/My Project/Settings.settings"/>
+					</Item>
+					<Item Name="Form1.Designer.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/Form1.Designer.vb"/>
+					<Item Name="Form1.resx" Type="Document" URL="../LED/PacDriveSDK/VB.NET/Form1.resx"/>
+					<Item Name="Form1.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/Form1.vb"/>
+					<Item Name="PacDrive.vb" Type="Document" URL="../LED/PacDriveSDK/VB.NET/PacDrive.vb"/>
+					<Item Name="PacDriveDemo.sln" Type="Document" URL="../LED/PacDriveSDK/VB.NET/PacDriveDemo.sln"/>
+					<Item Name="PacDriveDemo.suo" Type="Document" URL="../LED/PacDriveSDK/VB.NET/PacDriveDemo.suo"/>
+					<Item Name="PacDriveDemo.vbproj" Type="Document" URL="../LED/PacDriveSDK/VB.NET/PacDriveDemo.vbproj"/>
+					<Item Name="UpgradeLog.XML" Type="Document" URL="../LED/PacDriveSDK/VB.NET/UpgradeLog.XML"/>
+				</Item>
+				<Item Name="VB6" Type="Folder">
+					<Item Name="Form1.frm" Type="Document" URL="../LED/PacDriveSDK/VB6/Form1.frm"/>
+					<Item Name="MSSCCPRJ.SCC" Type="Document" URL="../LED/PacDriveSDK/VB6/MSSCCPRJ.SCC"/>
+					<Item Name="PacDrive32.dll" Type="Document" URL="../LED/PacDriveSDK/VB6/PacDrive32.dll"/>
+					<Item Name="PacDrive64.dll" Type="Document" URL="../LED/PacDriveSDK/VB6/PacDrive64.dll"/>
+					<Item Name="Project1.exe" Type="Document" URL="../LED/PacDriveSDK/VB6/Project1.exe"/>
+					<Item Name="Project1.vbp" Type="Document" URL="../LED/PacDriveSDK/VB6/Project1.vbp"/>
+					<Item Name="Project1.vbw" Type="Document" URL="../LED/PacDriveSDK/VB6/Project1.vbw"/>
+				</Item>
+				<Item Name="license.txt" Type="Document" URL="../LED/PacDriveSDK/license.txt"/>
+				<Item Name="Pacdrive.jpg" Type="Document" URL="../LED/PacDriveSDK/Pacdrive.jpg"/>
+				<Item Name="Pacdrive.url" Type="Document" URL="../LED/PacDriveSDK/Pacdrive.url"/>
+				<Item Name="ReadMe.doc" Type="Document" URL="../LED/PacDriveSDK/ReadMe.doc"/>
+				<Item Name="ReadMe.pdf" Type="Document" URL="../LED/PacDriveSDK/ReadMe.pdf"/>
+				<Item Name="U-HID.com.url" Type="Document" URL="../LED/PacDriveSDK/U-HID.com.url"/>
+				<Item Name="U-HID.jpg" Type="Document" URL="../LED/PacDriveSDK/U-HID.jpg"/>
+			</Item>
+			<Item Name="LEDPorts.ctl" Type="VI" URL="../LED/LEDPorts.ctl"/>
+			<Item Name="LEDvalues.ctl" Type="VI" URL="../LED/LEDvalues.ctl"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -255,7 +394,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
